@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Cat in the Hat</string>
+
+
+    <string name="TheCat">The Cat</string>
+    <string name="Thing1">Thing 1</string>
+    <string name="Thing2">Thing 2</string>
+    <string name="Thingamajigger">Thingamajigger</string>
+    <string name="Sally">Sally</string>
+    <string name="Nick">Nick</string>
+    <string name="DrSeuss">Dr. Seuss</string>
+
+    <color name="myButtonColor">#673AB7</color>
+    <color name="myButtonTextColor">#fff</color>
+
+</resources>

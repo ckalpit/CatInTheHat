@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FirstActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TheCat"
+        android:id="@+id/theCatButton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@color/myButtonColor"
+        android:textColor="@color/myButtonTextColor"
+        android:padding="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Thing1"
+        android:id="@+id/thing1button"
+        android:layout_below="@+id/theCatButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/myButtonColor"
+        android:textColor="@color/myButtonTextColor"
+        android:padding="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Thing2"
+        android:id="@+id/thing2button"
+        android:layout_below="@+id/thing1button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/myButtonColor"
+        android:textColor="@color/myButtonTextColor"
+        android:padding="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Thingamajigger"
+        android:id="@+id/jiggerbutton"
+        android:layout_below="@+id/thing2button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/myButtonColor"
+        android:textColor="@color/myButtonTextColor"
+        android:padding="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Sally"
+        android:id="@+id/sallybutton"
+        android:layout_below="@+id/jiggerbutton"
+        android:layout_alignLeft="@+id/nickButton"
+        android:layout_alignStart="@+id/nickButton"
+        android:layout_marginTop="10dp"
+        android:background="@color/myButtonColor"
+        android:textColor="@color/myButtonTextColor"
+        android:padding="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Nick"
+        android:id="@+id/nickButton"
+        android:layout_below="@+id/sallybutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/myButtonColor"
+        android:textColor="@color/myButtonTextColor"
+        android:padding="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DrSeuss"
+        android:id="@+id/drSbutton"
+        android:layout_below="@+id/nickButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/myButtonColor"
+        android:textColor="@color/myButtonTextColor"
+        android:padding="10dp" />
+</RelativeLayout>
